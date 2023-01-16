@@ -1,3 +1,24 @@
 tart ansible log
 next day log
 new server
+2023-01-16 08:42:34,293 p=81670 u=ansible n=ansible | PLAY [linux] ***********************************************************************************************************
+2023-01-16 08:42:34,312 p=81670 u=ansible n=ansible | TASK [Gathering Facts] *************************************************************************************************
+2023-01-16 08:42:37,263 p=81670 u=ansible n=ansible | ok: [192.168.1.70]
+2023-01-16 08:42:37,296 p=81670 u=ansible n=ansible | TASK [dnf] *************************************************************************************************************
+2023-01-16 08:42:38,683 p=81670 u=ansible n=ansible | fatal: [192.168.1.70]: FAILED! => {"changed": false, "msg": "Unsupported parameters for (dnf) module: debug. Supported parameters include: conf_file, cacheonly, security, validate_certs, update_cache (expire-cache), bugfix, enable_plugin, autoremove, lock_timeout, allow_downgrade, disable_gpg_check, disable_plugin, sslverify, update_only, install_repoquery, releasever, install_weak_deps, download_only, list, disablerepo, exclude, name (pkg), allowerasing, enablerepo, nobest, state, skip_broken, installroot, download_dir, disable_excludes."}
+2023-01-16 08:42:38,685 p=81670 u=ansible n=ansible | PLAY RECAP *************************************************************************************************************
+2023-01-16 08:42:38,686 p=81670 u=ansible n=ansible | 192.168.1.70               : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-01-16 08:46:01,840 p=81823 u=ansible n=ansible | PLAY [linux] ***********************************************************************************************************
+2023-01-16 08:46:01,863 p=81823 u=ansible n=ansible | TASK [Gathering Facts] *************************************************************************************************
+2023-01-16 08:46:04,818 p=81823 u=ansible n=ansible | ok: [192.168.1.70]
+2023-01-16 08:46:04,852 p=81823 u=ansible n=ansible | TASK [dnf] *************************************************************************************************************
+2023-01-16 08:46:09,990 p=81823 u=ansible n=ansible | ok: [192.168.1.70]
+2023-01-16 08:46:10,034 p=81823 u=ansible n=ansible | PLAY RECAP *************************************************************************************************************
+2023-01-16 08:46:10,034 p=81823 u=ansible n=ansible | 192.168.1.70               : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-01-16 08:56:25,926 p=82505 u=ansible n=ansible | PLAY [linux] ***********************************************************************************************************
+2023-01-16 08:56:25,946 p=82505 u=ansible n=ansible | TASK [Gathering Facts] *************************************************************************************************
+2023-01-16 08:56:29,222 p=82505 u=ansible n=ansible | ok: [192.168.1.70]
+2023-01-16 08:56:29,253 p=82505 u=ansible n=ansible | TASK [dnf] *************************************************************************************************************
+2023-01-16 08:56:34,310 p=82505 u=ansible n=ansible | ok: [192.168.1.70]
+2023-01-16 08:56:34,354 p=82505 u=ansible n=ansible | PLAY RECAP *************************************************************************************************************
+2023-01-16 08:56:34,354 p=82505 u=ansible n=ansible | 192.168.1.70               : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
